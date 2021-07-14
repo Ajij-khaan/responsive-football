@@ -1,20 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
 body{
+    
     font-family: 'Poppins', sans-serif;
+   
 }
 
-h1{
-    color: white;
-    font-weight: blod;
-}
+
+/* Header Tyle Start */
 .header-bg{
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-container{
+    width: 1160px;
+    display: flex;
+    justify-content: center; 
+    margin: 135px 0px 100px 0;
+}
+
+.header-detail h1{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.header-image img{
+    width: 556px;
+    height: 438px;
+    margin-left: 80px;
+}
+
+
+.watch-live{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+}
+/* 
+ .container{
+    width: 1160px;
+    background-color: #E02C6D;
+    display: flex;
+    justify-content: center;
+}
+
+.header-detail h1{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+   
+
+
+    
+
+}
+.head-container{
     background-color: #2D25A0;
     
 }
 
 .header-detail{
-    
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 135px 0 100px 0;
     
 }
 
@@ -22,4 +76,18 @@ h1{
 .head-banner img{
     width: 556.01px;
     height: 438px;;
+    margin-left: 80px
 }
+
+.watch-live{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+}
+
+.watch-live i{
+    margin-left: 5px;
+} */
+
+/* Header Tyle END */
