@@ -1,18 +1,25 @@
+/*----------------------
+Fonts
+-----------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
 
+/*----------------------
+Common Styles
+-----------------------*/
+
 body{
-    
     font-family: 'Poppins', sans-serif;
-   
 }
 
 
-/* Header Tyle Start */
+/*----------------------
+Header Style Start
+-----------------------*/
 .header-bg{
     background-color: #2D25A0;
     display: flex;
     justify-content: center;
-
 }
 
 .header-container{
@@ -28,14 +35,6 @@ body{
     font-size: 60px;
 }
 
-.header-image img{
-    width: 556px;
-    height: 438px;
-    margin-left: 80px;
-    transition: transform 1s ease-in-out;
-}
-
-
 .watch-live{
     text-decoration: none;
     background-color: #E02C6D;
@@ -43,19 +42,31 @@ body{
     color: white;
 }
 
-
-.header-image:hover img{
-    transform: scale(1.5);
-}
-
 .watch-live:hover i {
     transform: scale(1.5);
     margin-left: 5px;
 }
 
-/* Header Tyle END */
+.header-image img{
+    width: 556px;
+    height: 438px;
+    margin-left: 80px;
+    transition: transform 1s ease-in-out;
+}
 
-/* Player Style Start */
+.header-image:hover img{
+    transform: scale(1.5);
+}
+
+
+/*----------------------
+Header Style End
+-----------------------*/
+
+
+/*----------------------
+Player Style Start
+-----------------------*/
 
 main{
     display: flex;
@@ -89,7 +100,10 @@ main{
     width: 300px;
     height: 256px;
     transition: transform 1s ease-in-out;
-    
+}
+
+.player-image:hover img{
+    transform: scale(1.075);
 }
 
 .player-detail p{
@@ -102,26 +116,17 @@ main{
 .player-detail h3{
     font-weight: 700;
     font-size: 28px;
-    color: #18191F
-    ;
+    color: #18191F;
 }
 
-.player-image:hover img{
-    transform: scale(1.05);
-    
-}
+/*----------------------
+Player Style End
+-----------------------*/
 
 
-
-
-/* Foot Styl Start */
-
-
-
-
-
-
-
+/*----------------------
+Footer Style Start
+-----------------------*/
 
 footer{
     display: flex;
@@ -130,19 +135,19 @@ footer{
 }
 
 .footer-container{
-    /* background-color: red; */
     width: 486px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+.logo img{
+    width: 483px;
 }
 
 .social{
     margin-top: 20px;
 }
-
-
 
 .social-icon i{
     color: #969bab;
@@ -152,43 +157,24 @@ footer{
     padding: 8px;
 }
 
-.logo img{
-    width: 483px;
-}
 .copyright{
     font-weight: 400;
     font-size: 18px;
 }
 
-/* Media Queries for resposive*/
-/* @media only screen and (max-width: 688px) {
-    .header-container{
-        width: 360px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .header-image img{
-        margin-top: 50px ;
-        margin-left: 0;
-        Width: 330px;
-        Height: 260px;
-    }
-
-    .header-detail h1{
-        color: white;
-        font-weight: 700;
-        font-size: 36px;
-    }
-
-} */
+/*----------------------
+Footer Style End
+-----------------------*/
 
 
-
+/*-----------------------------
+Responsive For Mobile Devices.
+-----------------------------*/
 
 @media only screen and (max-width: 688px) {
-    
+/*-----------------------------
+Header Style Start
+-----------------------------*/
     .header-container{
         width: 360px;
         display: flex;
@@ -208,7 +194,14 @@ footer{
         font-weight: 700;
         font-size: 36px;
     }
-/* ----------------------------------- */
+/*-----------------------------
+Header Style End
+-----------------------------*/
+
+
+/*-----------------------------
+Player Style Start
+-----------------------------*/
 .main-container{
     width: 360px;
     display: grid;
@@ -225,8 +218,14 @@ footer{
     height: 256px; 
 }
 
+/*-----------------------------
+Player Style End
+-----------------------------*/
 
-/*for footer*/
+
+/*-----------------------------
+Footer Style Start
+-----------------------------*/
     .footer-container{
         width: 260px;
     }
@@ -234,3 +233,6 @@ footer{
         width: 100%;
     }
     
+/*-----------------------------
+Footer Style End
+-----------------------------*/
