@@ -41,6 +41,7 @@ body{
     padding: 10px 24px;
     color: white;
 }
+
 /* 
  .container{
     width: 1160px;
@@ -91,3 +92,95 @@ body{
 } */
 
 /* Header Tyle END */
+
+/* Player Style Start */
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.main-container{
+    width: 1036px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+
+}
+
+.single-player{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.13);;
+}
+
+.player-image img{
+    width: 300px;
+    height: 256px;
+}
+
+.player-detail p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 0;
+}
+
+.player-detail h3{
+    font-weight: 700;
+    font-size: 28px;
+    color: #18191F
+    ;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.footer-container{
+    /* background-color: red; */
+    width: 486px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.social{
+    margin-top: 20px;
+}
+
+
+
+.social-icon i{
+    color: #969bab;
+    margin-right: 14px;
+    background-color: #e7e7e8;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.logo img{
+    width: 483px;
+}
+.copyright{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* width: 483.87px;
+height: 213px;
+left: 475px;
+top: 3474px; */
