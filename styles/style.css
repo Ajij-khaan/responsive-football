@@ -5,13 +5,17 @@ Fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
 
 /*----------------------
-Common Styles
+Common Styles Start
 -----------------------*/
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
+/*----------------------
+Common Styles End
+-----------------------*/
 
 /*----------------------
 Header Style Start
@@ -125,13 +129,55 @@ Player Style End
 
 
 /*----------------------
+Get In Touch Style Start
+-----------------------*/
+
+.get-in-touch{
+    margin-top: 150px;
+    background-color: #2D25A0;
+
+}
+.stay-connected-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stay-connected-container h1{
+    font-size: 28px;
+    color: white;
+    margin-right: 15px;
+}
+.email-form input{
+    border: 0;
+  height: 48px;
+  background: White;
+  padding-left: 15px;
+  
+}
+
+.email-form button{
+    border: 0;
+    height: 50px;
+    background-color: #E02C6D;
+    color: white;
+    padding: 0 20px;
+    margin-right: 30px ;
+  
+  }
+
+/*----------------------
+Get In Touch Style End
+-----------------------*/
+
+
+/*----------------------
 Footer Style Start
 -----------------------*/
 
 footer{
     display: flex;
     justify-content: center;
-    margin-top: 160px;
+    margin-top: 150px;
 }
 
 .footer-container{
@@ -220,6 +266,29 @@ Player Style Start
 
 /*-----------------------------
 Player Style End
+-----------------------------*/
+
+
+/*-----------------------------
+Get In Touch Style Start
+-----------------------------*/
+.get-in-touch{
+    display: flex;
+    justify-content: center;
+}
+
+.stay-connected-container{
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.email-form{
+    margin-bottom: 30px;
+}
+
+/*-----------------------------
+Get In Touch Style End
 -----------------------------*/
 
 
