@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color: white;
+    font-weight: blod;
+}
+.header-bg{
+    background-color: #2D25A0;
+    
+}
+
+.header-detail{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.head-banner img{
+    width: 556.01px;
+    height: 438px;;
+}
