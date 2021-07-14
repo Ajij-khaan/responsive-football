@@ -48,6 +48,11 @@ body{
     transform: scale(1.5);
 }
 
+.watch-live:hover i {
+    transform: scale(1.5);
+    margin-left: 5px;
+}
+
 /* 
  .container{
     width: 1160px;
